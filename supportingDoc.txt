@@ -1,0 +1,13 @@
+Supporting Document: Reasons for Choosing Next.js for the Ed-Tech Website
+
+Next.js is a powerful and modern framework built on top of React.js, and i believe it provides the ideal platform for creating an engaging and seamless learning experience for children aged 6 to 12 years old.
+below are some of features of next.js
+1. Server-Side Rendering (SSR):
+Next.js offers built-in server-side rendering capabilities, allowing us to render pages on the server before sending them to the client. 
+
+2. Static Site Generation (SSG):
+Next.js supports static site generation, which means we can pre-render static HTML files for each page during the build process.
+
+3. Easy API Routes Integration:
+Next.js offers straightforward API routes integration, making it simple for us to develop and manage serverless API endpoints. 
+
