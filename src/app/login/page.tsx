@@ -21,7 +21,7 @@ export default function LoginPage() {
       const response = await axios.post("/api/users/login", user);
       console.log("Login success", response.data);
       // toast.success("Login success");
-      router.push("/profile");
+      router.push("/");
     } catch (error: any) {
       console.log(error);
 
@@ -41,11 +41,11 @@ export default function LoginPage() {
   }, [user]);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 ">
       <h1>{loading ? "Processing" : "Login"}</h1>
       <hr />
 
-      <label htmlFor="email">email</label>
+      <label htmlFor="email">Email</label>
       <input
         className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
         id="email"
